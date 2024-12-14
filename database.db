@@ -1,0 +1,19 @@
+INSERT INTO pages_author (name) VALUES ('Marlon Cock'); 
+INSERT INTO pages_author (name) VALUES ('Mattias Hearl'); 
+INSERT INTO pages_author (name) VALUES ('Guinna Mealiffe'); 
+INSERT INTO pages_author (name) VALUES ('Keri Egell'); 
+INSERT INTO pages_author (name) VALUES ('Parsifal Rediers'); 
+INSERT INTO pages_author (name) VALUES ('Jobi Woodlands'); 
+INSERT INTO pages_author (name) VALUES ('Cathlene Gamblin'); 
+INSERT INTO pages_author (name) VALUES ('Collette Pawelczyk'); 
+INSERT INTO pages_author (name) VALUES ('Ferdy Skittrell'); 
+INSERT INTO pages_author (name) VALUES ('Cloris Jakubowsky');
+
+INSERT INTO pages_book (title, author_id) VALUES ('We Live Again', 1); 
+INSERT INTO pages_book (title, author_id) VALUES ('Bride of Boogedy', 2); 
+INSERT INTO pages_book (title, author_id) VALUES ('Man in the Gray Flannel Suit', 1); 
+INSERT INTO pages_book (title, author_id) VALUES ('Factory, The', 4); 
+INSERT INTO pages_book (title, author_id) VALUES ('Little Man Tate', 3); 
+INSERT INTO pages_book (title, author_id) VALUES ('Sympathy for Mr. Vengeance', 4); 
+INSERT INTO pages_book (title, author_id) VALUES ('Oliver Twist', 5); 
+INSERT INTO pages_book (title, author_id) VALUES ('Undertow', 6); 

@@ -1,0 +1,56 @@
+{% extends "layout/base.html" %}
+{% load static %}
+{% block title %} Landing Page (Home Page){% endblock title %}
+{% block stylesheets %}
+ <style>
+ h1 {
+ background-color: rgb(23, 94, 152);
+ color: white;
+ padding: 15px;
+ text-align: center;
+ font-size: 2em;
+ font-weight: bold;
+ margin-top: 0;
+ font-family: Times New Roman;
+ }
+ table {
+ width: 20%;
+ margin: 20px auto;
+ font-size: 1em;
+ font-family: Times New Roman;
+ text-align: center;
+ }
+ table, th, td {
+ border: 1px solid rgb(65, 62, 62);
+ }
+ th {
+ background-color: rgb(17, 120, 168);
+ padding: 10px;
+ font-weight: bold;
+ }
+ td {
+ padding: 8px;
+ }
+ caption {
+ font-size: 1.2em;
+ margin: 10px;
+ text-align: center;
+ font-weight: bold;
+ }
+ </style>
+{% endblock stylesheets %}
+{% block content %}
+<h1>Welcome To Asma's Web Page</h1>
+<hr>
+<h2> To View The List of The Books </h2>
+<a href = "list/">Press here </a>
+<br>
+{% comment %} <h2> To Show A Selected Book </h2>
+<a href = "book/">Press To Navigate</a> {% endcomment %}
+<br>
+<br>
+<br>
+<hr>
+<p><strong>All Rights Reserved to Asms's Website </strong></p>
+<P>Its The First-Last Final</p>
+{% endblock content %}
