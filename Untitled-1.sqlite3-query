@@ -1,0 +1,8 @@
+-- database: ./db.sqlite3
+
+SELECT * FROM pages_game;
+insert into pages_game (title, Author_id) values ('Swamp Water', 1);insert into pages_game (title, Author_id) values ('Swamp Water', 1);insert into pages_game (title, Author_id) values ('Swamp Water', 1);
+insert into pages_game (title, Author_id) values ('Swamp Water', 1);
+insert into pages_game (title, Author_id) values ('Swamp Water', 1);
+insert into pages_game (title, Author_id) values ('Swamp Water', 1);
+insert into pages_game (title, Author_id) values ('Swamp Water', 1);

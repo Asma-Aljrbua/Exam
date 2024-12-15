@@ -13,18 +13,18 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name='Author',
+            name='Developer',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('name', models.CharField(max_length=100)),
             ],
         ),
         migrations.CreateModel(
-            name='Book',
+            name='Game',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('title', models.CharField(max_length=200)),
-                ('author', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='pages.author')),
+                ('developer', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='pages.developer')),
             ],
         ),
     ]
